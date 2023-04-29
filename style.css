@@ -1,0 +1,166 @@
+body {
+    background-color:black;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    text-align:center;
+
+}
+#c {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     overflow: hidden
+   }
+
+}
+
+
+.cyber{
+    align:center;
+}
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color:#00FF00;
+
+}
+
+
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color:#FFFF00;
+}
+
+
+a:link {
+  color: #00FFFF;
+}
+
+/* visited link */
+a:visited {
+  color:#00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+.wording{
+    top:80%;
+}
+p{
+
+    font-family: 'Playfair Display', serif;
+    font-weight:normal;
+    font-size: 0.9rem;
+    color:#FFFF00;
+}
+
+button {
+    background-color: #00FF00;
+    position: absolute;
+    /* border-radius: inherit; */
+    border-radius: 50%;
+    border-color:#454545;
+    width: 6rem;
+    height:3rem;
+   }
+
+.button{
+    position:absolute;
+    left:90%;
+
+}
+.resume{
+    position:absolute;
+    left:80%;
+
+}
+.reach_me{
+    position:absolute;
+    left:70%;
+
+}
+.heading{
+    position:absolute
+    up: auto;
+}
+
+
+img:not(.extra1){
+    border-radius: 50%;
+    float: left;
+}
+
+
+
+hr {
+    border: 3px dotted #00FF00;
+    border-top:none;
+    width: 0.6rem;
+}
+label{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    color:#FFFF00;
+}
+
+.About{
+
+    position:absolute;
+    width:50%;
+    margin-left:25%;
+    top:15%;
+
+    align-items: left;
+    align-self: left;
+    display: flex;
+    margin-top: 1.6rem;
+    margin-right:3rem;
+
+}
+.cyber {
+    position:absolute;
+    width:30%;
+    margin-left:25%;
+    top:35%;
+
+    align-items: center;
+    align-self: center;
+    display: flex;
+    margin-top: 1.6rem;
+    margin-right:3rem;
+}
+
+
+.copywrite{
+    position:absolute
+    margin-left: 50%;
+    margin-top:35%
+
+}
+.extra{
+    position:absolute;
+    right:5%;
+
+
+}
+.extra1{
+    border-radius:5%;
+}
+.greetings{
+    position:absolute;
+    height:30px;
+    width:30px;
+    left:500px;
+    top:63%
+
+}
+
