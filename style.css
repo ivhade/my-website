@@ -55,11 +55,17 @@ a:hover {
 .wording{
     top:80%;
 }
-p{
+p:not(cheers){
 
     font-family: 'Playfair Display', serif;
     font-weight:normal;
     font-size: 0.9rem;
+    color:#FFFF00;
+}
+.cheers{
+    font-family: 'Playfair Display', serif;
+    font-weight:normal;
+    font-size:4rem;
     color:#FFFF00;
 }
 
@@ -154,5 +160,11 @@ label{
 }
 .extra1{
     border-radius:5%;
+}
+.cheer{
+    position:absolute;
+    top:65%;
+    right:30%;
+
 }
 
